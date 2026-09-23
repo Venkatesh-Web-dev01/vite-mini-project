@@ -1,16 +1,51 @@
-# React + Vite
+# React + Vite Starter Application
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A fast, lightweight web application built using **React 18** and **Vite** with **Hot Module Replacement (HMR)** enabled.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🚀 Features
 
-## React Compiler
+* **Vite Integration**: Instant server start and rapid HMR support.
+* **React 18**: Built using the modern React `createRoot` API and `StrictMode`.
+* **Interactive Counter**: Built-in state management example using `useState`.
+* **Responsive Design**: Custom CSS styling supporting both light and dark themes based on system preferences.
+* **Modern UI**: Smooth animations, SVG icon integrations, and custom layout styling.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🛠️ Built With
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+* [React](https://react.dev/) - UI Library
+* [Vite](https://vite.dev/) - Next Generation Frontend Tooling
+* CSS3 (Custom Variables & Media Queries)
+
+---
+
+## 📦 Getting Started
+
+### Prerequisites
+
+Ensure you have **Node.js** (v18 or higher) and npm installed.
+
+### Installation
+
+1. **Clone the repository:**
+   ```bash
+   git clone [https://github.com/your-username/your-repo-name.git](https://github.com/your-username/your-repo-name.git)
+   cd your-repo-name
+
+.PORJECT STRUCTURE   
+├── public/
+│   └── icons.svg
+├── src/
+│   ├── assets/
+│   │   ├── hero.png
+│   │   ├── react.svg
+│   │   └── vite.svg
+│   ├── App.css
+│   ├── App.jsx
+│   ├── index.css
+│   └── main.jsx
+├── index.html
+└── package.json
