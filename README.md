@@ -49,3 +49,32 @@ Ensure you have **Node.js** (v18 or higher) and npm installed.
 │   └── main.jsx
 ├── index.html
 └── package.json
+
+📦 Getting Started
+Prerequisites
+Ensure you have Node.js (v18 or higher) and npm (or pnpm) installed on your machine.
+
+Installation & Local Setup
+Clone the repository:
+
+Bash
+git clone https://github.com/Venkatesh-Web-dev01/vite-mini-project.git
+cd vite-mini-project
+Install dependencies:
+
+Bash
+npm install
+# or if using pnpm
+pnpm install
+Start the development server:
+
+Bash
+npm run dev
+# or
+pnpm dev
+Build for production:
+
+Bash
+npm run build
+# or
+pnpm build
