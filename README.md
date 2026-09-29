@@ -50,6 +50,23 @@ Ensure you have **Node.js** (v18 or higher) and npm installed.
 ├── index.html
 └── package.json
 
+
+graph TD
+    A[index.html] -->|Loads script| B[src/main.jsx]
+    B -->|Wraps with React.StrictMode| C[src/App.jsx]
+    C -->|Styles| D[src/App.css]
+    C -->|Imports| E[Assets & SVGs]
+    
+    subgraph Assets Folder
+        E --> F[src/assets/react.svg]
+        E --> G[src/assets/vite.svg]
+        E --> H[src/assets/hero.png]
+    end
+
+    subgraph Component State
+        C -->|useState| I[Interactive Counter]
+    end
+    
 📦 Getting Started
 Prerequisites
 Ensure you have Node.js (v18 or higher) and npm (or pnpm) installed on your machine.
