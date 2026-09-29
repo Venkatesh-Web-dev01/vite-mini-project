@@ -62,6 +62,31 @@ graph TD
         E --> G[src/assets/vite.svg]
         E --> H[src/assets/hero.png]
     end
+    vite-mini-project/
+│
+├── 📁 public/                 # Static assets served directly
+│   └── 📄 icons.svg           # Global SVG icon sprite
+│
+├── 📁 src/                    # Application source code
+│   ├── 📁 assets/             # Static visual media imported in React
+│   │   ├── 📄 hero.png        # Hero banner image
+│   │   ├── 📄 react.svg       # React brand icon
+│   │   └── 📄 vite.svg        # Vite brand icon
+│   │
+│   ├── 📄 App.css             # Component-level styles & light/dark theme rules
+│   ├── 📄 App.jsx             # Main component (UI layout & counter state)
+│   ├── 📄 index.css           # Global CSS resets & typography
+│   └── 📄 main.jsx            # React root entry point (createRoot)
+│
+├── 📄 .gitignore              # Files excluded from git tracking
+├── 📄 editorconfig            # Consistent code style formatting rules
+├── 📄 eslint.config.js        # Linter configurations
+├── 📄 favicon.svg             # Web page browser icon
+├── 📄 index.html              # HTML template entry point
+├── 📄 netlify.toml            # Deployment configuration for Netlify
+├── 📄 package.json            # Project dependencies and script definitions
+├── 📄 vitest.config.ts        # Unit test runner setup
+└── 📄 vitest.config.e2e.ts    # End-to-end test runner setup
 
     subgraph Component State
         C -->|useState| I[Interactive Counter]
