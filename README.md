@@ -4,6 +4,15 @@ A fast, lightweight web application built using **React 18** and **Vite** with *
 
 ---
 
+### 🚀 Key Features
+
+| Feature | Description |
+| :--- | :--- |
+| ⚡ **Vite Integration** | Instant server start with lightning-fast Hot Module Replacement (HMR). |
+| ⚛️ **React 18** | Leverages `createRoot` API and `StrictMode` out of the box. |
+| 🎨 **Theme Ready** | Automatic light and dark mode switching based on system preference. |
+| 🧪 **Test Suite** | Pre-configured with Vitest for unit and end-to-end testing. |
+
 ## 🚀 Features
 
 * **Vite Integration**: Instant server start and rapid HMR support.
@@ -87,6 +96,22 @@ graph TD
 ├── 📄 package.json            # Project dependencies and script definitions
 ├── 📄 vitest.config.ts        # Unit test runner setup
 └── 📄 vitest.config.e2e.ts    # End-to-end test runner setup
+
+<details>
+<summary><b>🔍 View Full Project File Tree</b></summary>
+
+```text
+vite-mini-project/
+├── public/
+│   └── icons.svg
+├── src/
+│   ├── assets/
+│   ├── App.css
+│   ├── App.jsx
+│   ├── index.css
+│   └── main.jsx
+├── index.html
+└── package.json
 
     subgraph Component State
         C -->|useState| I[Interactive Counter]
