@@ -1,7 +1,7 @@
 # React + Vite Starter Application
 
 A fast, lightweight web application built using **React 18** and **Vite** with **Hot Module Replacement (HMR)** enabled.
-
+![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)
 ---
 
 ### 🚀 Key Features
