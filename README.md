@@ -106,6 +106,21 @@ vite-mini-project/
     subgraph Component State
         C -->|useState| I[Interactive Counter]
     end
+
+> [!NOTE]
+> 🟦 **Blue Alert:** Useful information or highlights for users.
+
+> [!TIP]
+> 🟩 **Green Alert:** Helpful advice or quick recommendations.
+
+> [!IMPORTANT]
+> 🟪 **Purple Alert:** Crucial information needed to proceed.
+
+> [!WARNING]
+> 🟧 **Orange Alert:** Critical warnings or action required.
+
+> [!CAUTION]
+> 🟥 **Red Alert:** Potential risks or destructive actions.
     
 📦 Getting Started
 Prerequisites
