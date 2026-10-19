@@ -13,6 +13,18 @@ A fast, lightweight web application built using **React 18** and **Vite** with *
 | 🎨 **Theme Ready** | Automatic light and dark mode switching based on system preference. |
 | 🧪 **Test Suite** | Pre-configured with Vitest for unit and end-to-end testing. |
 
+
+- **Primary Brand:** `#646CFF`
+- **Success State:** `#2EA44F`
+- **Warning State:** `#D97706`
+- **Error State:** `#DC2626`
+- 
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)
+![Status](https://img.shields.io/badge/Status-Active-brightgreen?style=for-the-badge)
+![Build](https://img.shields.io/badge/Build-Passing-ff69b4?style=for-the-badge)
+
+
 ## 🚀 Features
 
 * **Vite Integration**: Instant server start and rapid HMR support.
