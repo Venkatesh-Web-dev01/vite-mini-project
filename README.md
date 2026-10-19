@@ -133,7 +133,39 @@ vite-mini-project/
 
 > [!CAUTION]
 > 🟥 **Red Alert:** Potential risks or destructive actions.
-    
+
+
+```javascript
+// Colorful code syntax
+const project = {
+  name: "Vite Mini Project",
+  status: "Ready",
+  version: 1.0
+};
+```
+
+# ⚡ Vite Mini Project
+
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)
+![Status](https://img.shields.io/badge/Status-In_Development-orange?style=for-the-badge)
+
+---
+
+> [!TIP]
+> 🚀 **Quick Start:** Run `npm run dev` to launch the local development server instantly!
+
+> [!WARNING]
+> ⚠️ **Node Version:** Requires **Node.js v18+**.
+
+---
+
+### 🎨 Color Palette
+- 💜 **Primary Accent:** `#646CFF`
+- ⚛️ **React Cyan:** `#61DAFB`
+- 🟢 **Success Green:** `#2EA44F`
+
+
 📦 Getting Started
 Prerequisites
 Ensure you have Node.js (v18 or higher) and npm (or pnpm) installed on your machine.
