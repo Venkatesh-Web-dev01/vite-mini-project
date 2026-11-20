@@ -25,15 +25,6 @@ A fast, lightweight web application built using **React 18** and **Vite** with *
 ![Build](https://img.shields.io/badge/Build-Passing-ff69b4?style=for-the-badge)
 
 
-## 🚀 Features
-
-* **Vite Integration**: Instant server start and rapid HMR support.
-* **React 18**: Built using the modern React `createRoot` API and `StrictMode`.
-* **Interactive Counter**: Built-in state management example using `useState`.
-* **Responsive Design**: Custom CSS styling supporting both light and dark themes based on system preferences.
-* **Modern UI**: Smooth animations, SVG icon integrations, and custom layout styling.
-
----
 
 ## 🛠️ Built With
 
